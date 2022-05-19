@@ -18,6 +18,10 @@ public class Base {
 
     WebDriver driver;
 
+    public Base(WebDriver driver) {
+        this.driver = driver;
+    }
+
     public WebDriver initializeDriver() throws IOException {
 
         Properties prop = new Properties();
